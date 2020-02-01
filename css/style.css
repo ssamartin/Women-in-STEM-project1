@@ -1,16 +1,22 @@
 /* Enter your Styles below! */
 
-body { 
-	font-family: Helvetica, sans-serif;
-	font-size: 16px;
+body {
+	font-family: Roboto, black;
+	font-size: 9px;
 	 }
 
+
+
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
 h1 {
-	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 80px;
+	letter-spacing: 5px;
+	color: white;
 }
 
 h2 {
@@ -34,11 +40,145 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
 	color: red;
 	text-decoration: none;
 	 }
 a:hover { color: black; }
+
+.homepage{
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+}
+
+.hp_button_one_placement{
+	grid-column: 5 / 6;
+	grid-row: 12 / 13;
+	background-color: yellow;
+
+}
+
+.hp_button_one{
+	width: 10px;
+	height: 10px;
+	background-color:green;
+}
+
+.hp_button_two_placement{
+	grid-column: 6 / 7;
+	grid-row: 12 / 13;
+	background-color: orange;
+
+}
+
+.hp_button_three_placement{
+	grid-column: 7 / 8;
+	grid-row: 12 / 13;
+	background-color: yellow;
+}
+
+.hp_button_four_placement{
+	grid-column: 8 / 9;
+	grid-row: 12 / 13;
+	background-color: orange;
+}
+
+.title{
+	grid-column: 5 / 10;
+	grid-row: 7 / 13;
+	background-color: blue;
+}
+
+.women_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.women{
+display: inline-block;
+text-align: right;
+background-color: purple;
+}
+
+.in{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.stem_center{
+	display: flex;
+	justify-content: center;
+	align-items: right;
+}
+
+.stem{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 80px;
+	letter-spacing: 5px;
+	color: white;
+	text-align: right;
+	padding-right: 13px;
+	background-color: purple;
+}
+
+.second_page{
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	width: 100%;
+	height: 100vh;
+	background-color: blue;
+}
+
+.main_icon_placement{
+	grid-column: 1 / 4;
+	grid-row: 1 / 8;
+	background-color: purple;
+}
+
+.pg2_button_one_placement{
+	grid-column: 1 / 2;
+	grid-row: 9 / 10;
+	background-color: red;
+}
+.pg2_button_two_placement{
+	grid-column: 1 / 2;
+	grid-row: 11 / 12;
+	background-color: yellow;
+}
+
+.pg2_button_three_placement{
+	grid-column: 1 / 2;
+	grid-row: 13 / 14;
+	background-color: red;
+
+}
+.pg2_button_four_placement{
+	grid-column: 1 / 2;
+	grid-row: 15 / 16;
+	background-color: yellow;
+}
+
+.pg2_text_box{
+	grid-column: 3 / 9;
+	grid-row: 8 / 19;
+	background-color: orange;
+}
+
+.pg2_title_box{
+	grid-column: 10 / 15;
+	grid-row: 19 / 21;
+	background-color: orange;
+}
 
 .grid {
 	display: grid;
