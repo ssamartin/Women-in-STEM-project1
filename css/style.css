@@ -53,6 +53,14 @@ a:hover { color: black; }
 	width: 100%;
 	height: 100vh;
 	background-color: red;
+	background: url(../images/helenedwards.jpg);
+	background-attachment:absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cursor_pointer{
+	cursor: pointer;
 }
 
 .hp_button_one_placement{
