@@ -29,3 +29,23 @@ $('#hp_button_one_id').click(function(){
 $('#hp_button_two_id').click(function(){
   $('html, body').animate({scrollTop: $("#third_page_id").offset().top});
 });
+
+$('#hp_button_three_id').click(function(){
+  $('html, body').animate({scrollTop: $("#fourth_page_id").offset().top});
+});
+
+$('#hp_button_fourth_id').click(function(){
+  $('html, body').animate({scrollTop: $("#fifth_page_id").offset().top});
+});
+
+$('#page_2_button_t').click(function(){
+  $('html, body').animate({scrollTop: $("#third_page_id").offset().top});
+});
+
+$('#page_2_button_e').click(function(){
+  $('html, body').animate({scrollTop: $("#fourth_page_id").offset().top});
+});
+
+$('#page_2_button_m').click(function(){
+  $('html, body').animate({scrollTop: $("#fifth_page_id").offset().top});
+});
