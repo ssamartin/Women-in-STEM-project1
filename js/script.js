@@ -49,3 +49,39 @@ $('#page_2_button_e').click(function(){
 $('#page_2_button_m').click(function(){
   $('html, body').animate({scrollTop: $("#fifth_page_id").offset().top});
 });
+
+$('#page_3_button_s').click(function(){
+  $('html, body').animate({scrollTop: $("#two_page_id").offset().top});
+});
+
+$('#page_3_button_e').click(function(){
+  $('html, body').animate({scrollTop: $("#fourth_page_id").offset().top});
+});
+
+$('#page_3_button_m').click(function(){
+  $('html, body').animate({scrollTop: $("#fifth_page_id").offset().top});
+});
+
+$('#page_4_button_s').click(function(){
+  $('html, body').animate({scrollTop: $("#two_page_id").offset().top});
+});
+
+$('#page_4_button_t').click(function(){
+  $('html, body').animate({scrollTop: $("#three_page_id").offset().top});
+});
+
+$('#page_4_button_m').click(function(){
+  $('html, body').animate({scrollTop: $("#fifth_page_id").offset().top});
+});
+
+$('#page_5_button_s').click(function(){
+  $('html, body').animate({scrollTop: $("#two_page_id").offset().top});
+});
+
+$('#page_5_button_t').click(function(){
+  $('html, body').animate({scrollTop: $("#three_page_id").offset().top});
+});
+
+$('#page_5_button_e').click(function(){
+  $('html, body').animate({scrollTop: $("#fourth_page_id").offset().top});
+});
