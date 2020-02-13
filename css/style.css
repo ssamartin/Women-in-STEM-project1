@@ -149,20 +149,20 @@ text-align: right;
 }
 
 .third_page_bg_image{
-	background: url(../images/helenimage2.jpg);
+	background: url(../images/rosalindfranklinimage.jpg);
 	background-attachment:absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .fourth_page_bg_image{
-	background: url(../images/helenimage2.jpg);
+	background: url(../images/herthaimage.jpg);
 	background-attachment:absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .fifth_page_bg_image{
-	background: url(../images/helenimage2.jpg);
+	background: url(../images/edithclarkimage.jpg);
 	background-attachment:absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
